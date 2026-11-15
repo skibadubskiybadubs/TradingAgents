@@ -1,0 +1,2054 @@
+{
+  "name": "tradingagents",
+  "description": "TradingAgents is a multi-agent LLM financial trading framework built on LangChain and LangGraph, with a CLI for running agent-driven market analysis and trading decisions. Note: this project has over 100 source files; consider scoping analysis to a subdirectory for faster results.",
+  "languages": [
+    "config",
+    "dockerfile",
+    "json",
+    "markdown",
+    "python",
+    "toml",
+    "txt",
+    "yaml"
+  ],
+  "frameworks": [
+    "Pytest",
+    "Docker",
+    "Docker Compose",
+    "GitHub Actions"
+  ],
+  "files": [
+    {
+      "path": ".claude/settings.json",
+      "language": "json",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".dockerignore",
+      "language": "unknown",
+      "sizeLines": 15,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".env.enterprise.example",
+      "language": "config",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".env.example",
+      "language": "config",
+      "sizeLines": 84,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "language": "yaml",
+      "sizeLines": 58,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "language": "yaml",
+      "sizeLines": 8,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/data-issue.yml",
+      "language": "yaml",
+      "sizeLines": 52,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature-request.yml",
+      "language": "yaml",
+      "sizeLines": 25,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "language": "yaml",
+      "sizeLines": 67,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".github/workflows/release-assets.yml",
+      "language": "yaml",
+      "sizeLines": 59,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".ua/config.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "language": "markdown",
+      "sizeLines": 763,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Dockerfile",
+      "language": "dockerfile",
+      "sizeLines": 30,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 421,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "cli/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/display.py",
+      "language": "python",
+      "sizeLines": 622,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/main.py",
+      "language": "python",
+      "sizeLines": 198,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/models.py",
+      "language": "python",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/prefs.py",
+      "language": "python",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/prompts.py",
+      "language": "python",
+      "sizeLines": 790,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/run.py",
+      "language": "python",
+      "sizeLines": 464,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/selections.py",
+      "language": "python",
+      "sizeLines": 383,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/static/welcome.txt",
+      "language": "txt",
+      "sizeLines": 7,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "cli/stats_handler.py",
+      "language": "python",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cli/updates.py",
+      "language": "python",
+      "sizeLines": 220,
+      "fileCategory": "code"
+    },
+    {
+      "path": "docker-compose.yml",
+      "language": "yaml",
+      "sizeLines": 36,
+      "fileCategory": "infra"
+    },
+    {
+      "path": "main.py",
+      "language": "python",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pyproject.toml",
+      "language": "toml",
+      "sizeLines": 89,
+      "fileCategory": "config"
+    },
+    {
+      "path": "requirements.txt",
+      "language": "txt",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "tests/__init__.py",
+      "language": "python",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/conftest.py",
+      "language": "python",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_alpha_vantage_hardening.py",
+      "language": "python",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_analyst_execution.py",
+      "language": "python",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_anthropic_effort.py",
+      "language": "python",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_api_key_env.py",
+      "language": "python",
+      "sizeLines": 190,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_azure_client.py",
+      "language": "python",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_backtest.py",
+      "language": "python",
+      "sizeLines": 366,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_bedrock_provider.py",
+      "language": "python",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_cache_writes.py",
+      "language": "python",
+      "sizeLines": 164,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_capabilities.py",
+      "language": "python",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_chatgpt_auth.py",
+      "language": "python",
+      "sizeLines": 427,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_chatgpt_provider.py",
+      "language": "python",
+      "sizeLines": 245,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_checkpoint_lifecycle.py",
+      "language": "python",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_checkpoint_resume.py",
+      "language": "python",
+      "sizeLines": 248,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_cli_commands.py",
+      "language": "python",
+      "sizeLines": 235,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_cli_config_precedence.py",
+      "language": "python",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_cli_display.py",
+      "language": "python",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_cli_env_skip.py",
+      "language": "python",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_cli_headless.py",
+      "language": "python",
+      "sizeLines": 364,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_cli_memory_log.py",
+      "language": "python",
+      "sizeLines": 192,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_cli_no_console.py",
+      "language": "python",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_cli_prefs.py",
+      "language": "python",
+      "sizeLines": 161,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_cli_symbol_handling.py",
+      "language": "python",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_cli_updates.py",
+      "language": "python",
+      "sizeLines": 339,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_crypto_asset_mode.py",
+      "language": "python",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_dataflows_config.py",
+      "language": "python",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_date_boundaries.py",
+      "language": "python",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_debate_opening.py",
+      "language": "python",
+      "sizeLines": 111,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_deepseek_reasoning.py",
+      "language": "python",
+      "sizeLines": 239,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_env_overrides.py",
+      "language": "python",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_fred.py",
+      "language": "python",
+      "sizeLines": 308,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_fundamentals_lookahead.py",
+      "language": "python",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_fundamentals_units.py",
+      "language": "python",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_get_scrubbed.py",
+      "language": "python",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_google_api_key.py",
+      "language": "python",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_google_thinking_level.py",
+      "language": "python",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_graph_end_to_end.py",
+      "language": "python",
+      "sizeLines": 389,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_i18n_coverage.py",
+      "language": "python",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_instrument_identity.py",
+      "language": "python",
+      "sizeLines": 130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_layering.py",
+      "language": "python",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_llm_max_retries.py",
+      "language": "python",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_llm_max_tokens.py",
+      "language": "python",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_memory_log.py",
+      "language": "python",
+      "sizeLines": 1405,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_memory_pointintime.py",
+      "language": "python",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_minimax.py",
+      "language": "python",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_model_validation.py",
+      "language": "python",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_news_analyst_prompt.py",
+      "language": "python",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_news_lookahead.py",
+      "language": "python",
+      "sizeLines": 419,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_no_data_handling.py",
+      "language": "python",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_ohlcv_cache_freshness.py",
+      "language": "python",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_ohlcv_date_column.py",
+      "language": "python",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_ohlcv_latest_bar.py",
+      "language": "python",
+      "sizeLines": 209,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_ollama_base_url.py",
+      "language": "python",
+      "sizeLines": 174,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_openai_compatible_provider.py",
+      "language": "python",
+      "sizeLines": 98,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_openai_reasoning_effort.py",
+      "language": "python",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_openai_responses_base_url.py",
+      "language": "python",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_openrouter_model_select.py",
+      "language": "python",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_polymarket.py",
+      "language": "python",
+      "sizeLines": 143,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_portfolio_context.py",
+      "language": "python",
+      "sizeLines": 283,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_post_screen.py",
+      "language": "python",
+      "sizeLines": 309,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_prompt_integrity.py",
+      "language": "python",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_provider_registry.py",
+      "language": "python",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_rating_integrity.py",
+      "language": "python",
+      "sizeLines": 303,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_reddit_fallback.py",
+      "language": "python",
+      "sizeLines": 335,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_report_html.py",
+      "language": "python",
+      "sizeLines": 174,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_reporting.py",
+      "language": "python",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_risk_router_path_map.py",
+      "language": "python",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_safe_ticker_component.py",
+      "language": "python",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_sec_edgar.py",
+      "language": "python",
+      "sizeLines": 357,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_signal_processing.py",
+      "language": "python",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_social_lookahead.py",
+      "language": "python",
+      "sizeLines": 223,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_statement_knowledge_time.py",
+      "language": "python",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_stocktwits_resilience.py",
+      "language": "python",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_structured_agent_prompts.py",
+      "language": "python",
+      "sizeLines": 168,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_structured_agents.py",
+      "language": "python",
+      "sizeLines": 547,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_suite_isolation.py",
+      "language": "python",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_symbol_normalization_paths.py",
+      "language": "python",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_symbols.py",
+      "language": "python",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_temperature_config.py",
+      "language": "python",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_ticker_symbol_handling.py",
+      "language": "python",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_tier_providers.py",
+      "language": "python",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_tool_date_enforcement.py",
+      "language": "python",
+      "sizeLines": 204,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_undated_tools_as_of.py",
+      "language": "python",
+      "sizeLines": 260,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_vendor_errors.py",
+      "language": "python",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_vendor_routing.py",
+      "language": "python",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_version.py",
+      "language": "python",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_yahoo_rate_limit.py",
+      "language": "python",
+      "sizeLines": 286,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_yahoo_snapshot.py",
+      "language": "python",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/test_yfinance_stale_ohlcv_guard.py",
+      "language": "python",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/__init__.py",
+      "language": "python",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/__init__.py",
+      "language": "python",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/analysts/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/analysts/fundamentals_analyst.py",
+      "language": "python",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/analysts/market_analyst.py",
+      "language": "python",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/analysts/news_analyst.py",
+      "language": "python",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/analysts/sentiment_analyst.py",
+      "language": "python",
+      "sizeLines": 199,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/analysts/turn.py",
+      "language": "python",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/context.py",
+      "language": "python",
+      "sizeLines": 218,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/managers/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/managers/portfolio_manager.py",
+      "language": "python",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/managers/research_manager.py",
+      "language": "python",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/post_screen.py",
+      "language": "python",
+      "sizeLines": 181,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/rating.py",
+      "language": "python",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/researchers/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/researchers/bear_researcher.py",
+      "language": "python",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/researchers/bull_researcher.py",
+      "language": "python",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/risk_mgmt/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/risk_mgmt/aggressive_debator.py",
+      "language": "python",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/risk_mgmt/conservative_debator.py",
+      "language": "python",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/risk_mgmt/neutral_debator.py",
+      "language": "python",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/schemas.py",
+      "language": "python",
+      "sizeLines": 379,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/state.py",
+      "language": "python",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/structured.py",
+      "language": "python",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/tools.py",
+      "language": "python",
+      "sizeLines": 291,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/trader/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/agents/trader/trader.py",
+      "language": "python",
+      "sizeLines": 98,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/backtest.py",
+      "language": "python",
+      "sizeLines": 236,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/config.py",
+      "language": "python",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/date_window.py",
+      "language": "python",
+      "sizeLines": 176,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/errors.py",
+      "language": "python",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/files.py",
+      "language": "python",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/net.py",
+      "language": "python",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/router.py",
+      "language": "python",
+      "sizeLines": 297,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/symbols.py",
+      "language": "python",
+      "sizeLines": 180,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/__init__.py",
+      "language": "python",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/alpha_vantage/__init__.py",
+      "language": "python",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/alpha_vantage/common.py",
+      "language": "python",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/alpha_vantage/fundamentals.py",
+      "language": "python",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/alpha_vantage/indicator.py",
+      "language": "python",
+      "sizeLines": 219,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/alpha_vantage/news.py",
+      "language": "python",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/alpha_vantage/stock.py",
+      "language": "python",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/fred.py",
+      "language": "python",
+      "sizeLines": 286,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/polymarket.py",
+      "language": "python",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/reddit.py",
+      "language": "python",
+      "sizeLines": 337,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/sec_edgar.py",
+      "language": "python",
+      "sizeLines": 270,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/stocktwits.py",
+      "language": "python",
+      "sizeLines": 162,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/yahoo/__init__.py",
+      "language": "python",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/yahoo/common.py",
+      "language": "python",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/yahoo/fundamentals.py",
+      "language": "python",
+      "sizeLines": 171,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/yahoo/market.py",
+      "language": "python",
+      "sizeLines": 294,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/yahoo/news.py",
+      "language": "python",
+      "sizeLines": 201,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/yahoo/ohlcv.py",
+      "language": "python",
+      "sizeLines": 259,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/dataflows/vendors/yahoo/snapshot.py",
+      "language": "python",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/default_config.py",
+      "language": "python",
+      "sizeLines": 209,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/graph/__init__.py",
+      "language": "python",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/graph/analyst_execution.py",
+      "language": "python",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/graph/checkpointer.py",
+      "language": "python",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/graph/conditional_logic.py",
+      "language": "python",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/graph/propagation.py",
+      "language": "python",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/graph/setup.py",
+      "language": "python",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/graph/trading_graph.py",
+      "language": "python",
+      "sizeLines": 476,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/__init__.py",
+      "language": "python",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/anthropic_client.py",
+      "language": "python",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/api_key_env.py",
+      "language": "python",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/azure_client.py",
+      "language": "python",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/base_client.py",
+      "language": "python",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/bedrock_client.py",
+      "language": "python",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/capabilities.py",
+      "language": "python",
+      "sizeLines": 140,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/chatgpt_auth.py",
+      "language": "python",
+      "sizeLines": 416,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/factory.py",
+      "language": "python",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/google_client.py",
+      "language": "python",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/model_catalog.py",
+      "language": "python",
+      "sizeLines": 259,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/openai_client.py",
+      "language": "python",
+      "sizeLines": 411,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/llm_clients/validators.py",
+      "language": "python",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/memory/__init__.py",
+      "language": "python",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/memory/log.py",
+      "language": "python",
+      "sizeLines": 360,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/memory/reflection.py",
+      "language": "python",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/memory/settlement.py",
+      "language": "python",
+      "sizeLines": 196,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/portfolio.py",
+      "language": "python",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/report_html.py",
+      "language": "python",
+      "sizeLines": 305,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tradingagents/reporting.py",
+      "language": "python",
+      "sizeLines": 136,
+      "fileCategory": "code"
+    }
+  ],
+  "totalFiles": 202,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "large",
+  "importMap": {
+    ".claude/settings.json": [],
+    ".dockerignore": [],
+    ".env.enterprise.example": [],
+    ".env.example": [],
+    ".github/ISSUE_TEMPLATE/bug-report.yml": [],
+    ".github/ISSUE_TEMPLATE/config.yml": [],
+    ".github/ISSUE_TEMPLATE/data-issue.yml": [],
+    ".github/ISSUE_TEMPLATE/feature-request.yml": [],
+    ".github/workflows/ci.yml": [],
+    ".github/workflows/release-assets.yml": [],
+    ".ua/config.json": [],
+    "CHANGELOG.md": [],
+    "Dockerfile": [],
+    "README.md": [],
+    "cli/__init__.py": [],
+    "cli/display.py": [
+      "tradingagents/graph/analyst_execution.py"
+    ],
+    "cli/main.py": [
+      "cli/display.py",
+      "cli/models.py",
+      "cli/prompts.py",
+      "cli/run.py",
+      "tradingagents/backtest.py",
+      "tradingagents/default_config.py",
+      "tradingagents/llm_clients/openai_client.py",
+      "tradingagents/portfolio.py"
+    ],
+    "cli/models.py": [],
+    "cli/prefs.py": [
+      "cli/models.py",
+      "cli/prompts.py",
+      "tradingagents/dataflows/files.py",
+      "tradingagents/llm_clients/model_catalog.py"
+    ],
+    "cli/prompts.py": [
+      "cli/display.py",
+      "cli/models.py",
+      "tradingagents/dataflows/symbols.py",
+      "tradingagents/llm_clients/api_key_env.py",
+      "tradingagents/llm_clients/model_catalog.py",
+      "tradingagents/llm_clients/openai_client.py"
+    ],
+    "cli/run.py": [
+      "cli/display.py",
+      "cli/selections.py",
+      "cli/stats_handler.py",
+      "tradingagents/agents/rating.py",
+      "tradingagents/dataflows/symbols.py",
+      "tradingagents/default_config.py",
+      "tradingagents/graph/analyst_execution.py",
+      "tradingagents/graph/trading_graph.py"
+    ],
+    "cli/selections.py": [
+      "cli/__init__.py",
+      "cli/display.py",
+      "cli/prefs.py",
+      "cli/prompts.py",
+      "cli/updates.py",
+      "tradingagents/default_config.py",
+      "tradingagents/llm_clients/factory.py",
+      "tradingagents/llm_clients/openai_client.py"
+    ],
+    "cli/static/welcome.txt": [],
+    "cli/stats_handler.py": [],
+    "cli/updates.py": [
+      "tradingagents/dataflows/files.py",
+      "tradingagents/default_config.py"
+    ],
+    "docker-compose.yml": [],
+    "main.py": [
+      "tradingagents/default_config.py",
+      "tradingagents/graph/trading_graph.py"
+    ],
+    "pyproject.toml": [],
+    "requirements.txt": [],
+    "tests/__init__.py": [],
+    "tests/conftest.py": [],
+    "tests/test_alpha_vantage_hardening.py": [
+      "tradingagents/dataflows/net.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/common.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/fundamentals.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/stock.py"
+    ],
+    "tests/test_analyst_execution.py": [
+      "tradingagents/graph/analyst_execution.py"
+    ],
+    "tests/test_anthropic_effort.py": [
+      "tradingagents/llm_clients/__init__.py"
+    ],
+    "tests/test_api_key_env.py": [
+      "tradingagents/llm_clients/api_key_env.py"
+    ],
+    "tests/test_azure_client.py": [
+      "tradingagents/llm_clients/factory.py"
+    ],
+    "tests/test_backtest.py": [
+      "tradingagents/backtest.py",
+      "tradingagents/memory/__init__.py",
+      "tradingagents/memory/settlement.py"
+    ],
+    "tests/test_bedrock_provider.py": [
+      "tradingagents/llm_clients/api_key_env.py",
+      "tradingagents/llm_clients/factory.py",
+      "tradingagents/llm_clients/validators.py"
+    ],
+    "tests/test_cache_writes.py": [
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/files.py",
+      "tradingagents/dataflows/vendors/__init__.py",
+      "tradingagents/dataflows/vendors/sec_edgar.py",
+      "tradingagents/dataflows/vendors/yahoo/__init__.py",
+      "tradingagents/dataflows/vendors/yahoo/ohlcv.py"
+    ],
+    "tests/test_capabilities.py": [
+      "tradingagents/llm_clients/capabilities.py"
+    ],
+    "tests/test_chatgpt_auth.py": [
+      "tradingagents/llm_clients/__init__.py"
+    ],
+    "tests/test_chatgpt_provider.py": [
+      "cli/prompts.py",
+      "cli/selections.py",
+      "tradingagents/__init__.py",
+      "tradingagents/default_config.py",
+      "tradingagents/llm_clients/__init__.py",
+      "tradingagents/llm_clients/chatgpt_auth.py",
+      "tradingagents/llm_clients/factory.py",
+      "tradingagents/llm_clients/openai_client.py"
+    ],
+    "tests/test_checkpoint_lifecycle.py": [
+      "tradingagents/graph/checkpointer.py",
+      "tradingagents/graph/trading_graph.py"
+    ],
+    "tests/test_checkpoint_resume.py": [
+      "tradingagents/graph/checkpointer.py"
+    ],
+    "tests/test_cli_commands.py": [
+      "cli/main.py"
+    ],
+    "tests/test_cli_config_precedence.py": [
+      "cli/main.py",
+      "cli/run.py"
+    ],
+    "tests/test_cli_display.py": [
+      "cli/display.py",
+      "tradingagents/graph/analyst_execution.py"
+    ],
+    "tests/test_cli_env_skip.py": [
+      "cli/selections.py"
+    ],
+    "tests/test_cli_headless.py": [
+      "cli/__init__.py",
+      "cli/models.py",
+      "cli/prompts.py",
+      "cli/run.py",
+      "cli/selections.py"
+    ],
+    "tests/test_cli_memory_log.py": [
+      "cli/run.py",
+      "tradingagents/graph/trading_graph.py",
+      "tradingagents/memory/__init__.py"
+    ],
+    "tests/test_cli_no_console.py": [
+      "cli/main.py"
+    ],
+    "tests/test_cli_prefs.py": [
+      "cli/models.py",
+      "cli/prefs.py",
+      "cli/selections.py"
+    ],
+    "tests/test_cli_symbol_handling.py": [
+      "cli/models.py",
+      "cli/prompts.py",
+      "cli/run.py",
+      "tradingagents/dataflows/symbols.py"
+    ],
+    "tests/test_cli_updates.py": [
+      "cli/selections.py",
+      "cli/updates.py"
+    ],
+    "tests/test_crypto_asset_mode.py": [
+      "cli/models.py",
+      "cli/prompts.py",
+      "tradingagents/graph/propagation.py"
+    ],
+    "tests/test_dataflows_config.py": [
+      "tradingagents/dataflows/config.py",
+      "tradingagents/default_config.py"
+    ],
+    "tests/test_date_boundaries.py": [
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/vendors/yahoo/__init__.py",
+      "tradingagents/dataflows/vendors/yahoo/market.py",
+      "tradingagents/dataflows/vendors/yahoo/ohlcv.py"
+    ],
+    "tests/test_debate_opening.py": [
+      "tradingagents/agents/context.py",
+      "tradingagents/agents/researchers/bear_researcher.py",
+      "tradingagents/agents/researchers/bull_researcher.py",
+      "tradingagents/agents/risk_mgmt/aggressive_debator.py",
+      "tradingagents/agents/risk_mgmt/conservative_debator.py",
+      "tradingagents/agents/risk_mgmt/neutral_debator.py"
+    ],
+    "tests/test_deepseek_reasoning.py": [
+      "tradingagents/llm_clients/openai_client.py"
+    ],
+    "tests/test_env_overrides.py": [
+      "tradingagents/default_config.py"
+    ],
+    "tests/test_fred.py": [
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/router.py",
+      "tradingagents/dataflows/vendors/__init__.py",
+      "tradingagents/dataflows/vendors/fred.py",
+      "tradingagents/default_config.py"
+    ],
+    "tests/test_fundamentals_lookahead.py": [
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/__init__.py",
+      "tradingagents/dataflows/vendors/yahoo/__init__.py"
+    ],
+    "tests/test_fundamentals_units.py": [
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/vendors/yahoo/__init__.py",
+      "tradingagents/dataflows/vendors/yahoo/fundamentals.py"
+    ],
+    "tests/test_get_scrubbed.py": [
+      "tradingagents/dataflows/net.py"
+    ],
+    "tests/test_google_api_key.py": [
+      "tradingagents/llm_clients/google_client.py"
+    ],
+    "tests/test_google_thinking_level.py": [
+      "tradingagents/llm_clients/google_client.py"
+    ],
+    "tests/test_graph_end_to_end.py": [
+      "tradingagents/agents/__init__.py",
+      "tradingagents/agents/analysts/__init__.py",
+      "tradingagents/agents/analysts/sentiment_analyst.py",
+      "tradingagents/agents/context.py",
+      "tradingagents/agents/schemas.py",
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/router.py",
+      "tradingagents/dataflows/vendors/yahoo/__init__.py",
+      "tradingagents/dataflows/vendors/yahoo/snapshot.py",
+      "tradingagents/default_config.py",
+      "tradingagents/graph/__init__.py",
+      "tradingagents/graph/trading_graph.py"
+    ],
+    "tests/test_i18n_coverage.py": [
+      "tradingagents/agents/context.py"
+    ],
+    "tests/test_instrument_identity.py": [
+      "tradingagents/agents/context.py"
+    ],
+    "tests/test_layering.py": [],
+    "tests/test_llm_max_retries.py": [
+      "tradingagents/default_config.py",
+      "tradingagents/llm_clients/factory.py"
+    ],
+    "tests/test_llm_max_tokens.py": [
+      "tradingagents/default_config.py",
+      "tradingagents/llm_clients/factory.py"
+    ],
+    "tests/test_memory_log.py": [
+      "tradingagents/agents/managers/portfolio_manager.py",
+      "tradingagents/agents/schemas.py",
+      "tradingagents/graph/propagation.py",
+      "tradingagents/graph/trading_graph.py",
+      "tradingagents/memory/__init__.py",
+      "tradingagents/memory/reflection.py",
+      "tradingagents/memory/settlement.py"
+    ],
+    "tests/test_memory_pointintime.py": [
+      "tradingagents/memory/__init__.py"
+    ],
+    "tests/test_minimax.py": [
+      "tradingagents/llm_clients/openai_client.py"
+    ],
+    "tests/test_model_validation.py": [
+      "tradingagents/llm_clients/base_client.py",
+      "tradingagents/llm_clients/model_catalog.py",
+      "tradingagents/llm_clients/validators.py"
+    ],
+    "tests/test_news_analyst_prompt.py": [
+      "tradingagents/agents/analysts/news_analyst.py",
+      "tradingagents/agents/tools.py"
+    ],
+    "tests/test_news_lookahead.py": [
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/vendors/yahoo/news.py"
+    ],
+    "tests/test_no_data_handling.py": [
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/router.py",
+      "tradingagents/dataflows/vendors/yahoo/__init__.py",
+      "tradingagents/dataflows/vendors/yahoo/common.py",
+      "tradingagents/dataflows/vendors/yahoo/ohlcv.py"
+    ],
+    "tests/test_ohlcv_cache_freshness.py": [
+      "tradingagents/dataflows/vendors/yahoo/__init__.py",
+      "tradingagents/dataflows/vendors/yahoo/ohlcv.py"
+    ],
+    "tests/test_ohlcv_date_column.py": [
+      "tradingagents/dataflows/vendors/yahoo/__init__.py",
+      "tradingagents/dataflows/vendors/yahoo/ohlcv.py"
+    ],
+    "tests/test_ohlcv_latest_bar.py": [
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/vendors/yahoo/__init__.py",
+      "tradingagents/dataflows/vendors/yahoo/ohlcv.py"
+    ],
+    "tests/test_ollama_base_url.py": [],
+    "tests/test_openai_compatible_provider.py": [
+      "tradingagents/llm_clients/api_key_env.py",
+      "tradingagents/llm_clients/factory.py",
+      "tradingagents/llm_clients/openai_client.py",
+      "tradingagents/llm_clients/validators.py"
+    ],
+    "tests/test_openai_reasoning_effort.py": [
+      "tradingagents/llm_clients/openai_client.py"
+    ],
+    "tests/test_openai_responses_base_url.py": [
+      "tradingagents/llm_clients/openai_client.py"
+    ],
+    "tests/test_openrouter_model_select.py": [
+      "cli/__init__.py",
+      "cli/prompts.py"
+    ],
+    "tests/test_polymarket.py": [
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/router.py",
+      "tradingagents/dataflows/vendors/__init__.py",
+      "tradingagents/dataflows/vendors/polymarket.py",
+      "tradingagents/default_config.py"
+    ],
+    "tests/test_portfolio_context.py": [
+      "tradingagents/agents/context.py",
+      "tradingagents/portfolio.py"
+    ],
+    "tests/test_post_screen.py": [
+      "tradingagents/agents/__init__.py"
+    ],
+    "tests/test_prompt_integrity.py": [],
+    "tests/test_provider_registry.py": [
+      "tradingagents/llm_clients/openai_client.py"
+    ],
+    "tests/test_rating_integrity.py": [
+      "cli/run.py",
+      "tradingagents/agents/rating.py"
+    ],
+    "tests/test_reddit_fallback.py": [
+      "tradingagents/dataflows/vendors/__init__.py",
+      "tradingagents/dataflows/vendors/reddit.py"
+    ],
+    "tests/test_report_html.py": [
+      "tradingagents/reporting.py"
+    ],
+    "tests/test_reporting.py": [
+      "tradingagents/graph/trading_graph.py",
+      "tradingagents/reporting.py"
+    ],
+    "tests/test_risk_router_path_map.py": [
+      "tradingagents/graph/conditional_logic.py",
+      "tradingagents/graph/setup.py"
+    ],
+    "tests/test_safe_ticker_component.py": [
+      "tradingagents/dataflows/symbols.py"
+    ],
+    "tests/test_sec_edgar.py": [
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/vendors/__init__.py",
+      "tradingagents/dataflows/vendors/sec_edgar.py"
+    ],
+    "tests/test_signal_processing.py": [
+      "tradingagents/agents/rating.py"
+    ],
+    "tests/test_social_lookahead.py": [
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/vendors/__init__.py",
+      "tradingagents/dataflows/vendors/reddit.py",
+      "tradingagents/dataflows/vendors/stocktwits.py"
+    ],
+    "tests/test_statement_knowledge_time.py": [
+      "tradingagents/__init__.py",
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/router.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/__init__.py",
+      "tradingagents/dataflows/vendors/yahoo/__init__.py",
+      "tradingagents/default_config.py"
+    ],
+    "tests/test_stocktwits_resilience.py": [
+      "tradingagents/dataflows/vendors/__init__.py",
+      "tradingagents/dataflows/vendors/stocktwits.py"
+    ],
+    "tests/test_structured_agent_prompts.py": [
+      "tradingagents/agents/analysts/sentiment_analyst.py",
+      "tradingagents/agents/managers/portfolio_manager.py",
+      "tradingagents/agents/managers/research_manager.py",
+      "tradingagents/agents/structured.py",
+      "tradingagents/agents/trader/trader.py"
+    ],
+    "tests/test_structured_agents.py": [
+      "tradingagents/agents/analysts/sentiment_analyst.py",
+      "tradingagents/agents/managers/portfolio_manager.py",
+      "tradingagents/agents/managers/research_manager.py",
+      "tradingagents/agents/schemas.py",
+      "tradingagents/agents/trader/trader.py"
+    ],
+    "tests/test_suite_isolation.py": [],
+    "tests/test_symbol_normalization_paths.py": [
+      "tradingagents/agents/context.py",
+      "tradingagents/dataflows/vendors/yahoo/market.py",
+      "tradingagents/dataflows/vendors/yahoo/news.py",
+      "tradingagents/memory/__init__.py",
+      "tradingagents/memory/settlement.py"
+    ],
+    "tests/test_symbols.py": [
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/symbols.py"
+    ],
+    "tests/test_temperature_config.py": [
+      "tradingagents/llm_clients/factory.py"
+    ],
+    "tests/test_ticker_symbol_handling.py": [
+      "cli/prompts.py",
+      "tradingagents/agents/context.py"
+    ],
+    "tests/test_tier_providers.py": [
+      "tradingagents/__init__.py",
+      "tradingagents/default_config.py",
+      "tradingagents/llm_clients/__init__.py",
+      "tradingagents/llm_clients/factory.py"
+    ],
+    "tests/test_tool_date_enforcement.py": [
+      "tradingagents/agents/__init__.py",
+      "tradingagents/agents/tools.py",
+      "tradingagents/dataflows/date_window.py"
+    ],
+    "tests/test_undated_tools_as_of.py": [
+      "tradingagents/agents/__init__.py",
+      "tradingagents/agents/tools.py",
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/vendors/__init__.py",
+      "tradingagents/dataflows/vendors/polymarket.py",
+      "tradingagents/dataflows/vendors/yahoo/__init__.py"
+    ],
+    "tests/test_vendor_errors.py": [
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/router.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/common.py",
+      "tradingagents/dataflows/vendors/fred.py",
+      "tradingagents/default_config.py"
+    ],
+    "tests/test_vendor_routing.py": [
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/router.py",
+      "tradingagents/default_config.py"
+    ],
+    "tests/test_version.py": [
+      "tradingagents/__init__.py"
+    ],
+    "tests/test_yahoo_rate_limit.py": [
+      "tradingagents/agents/tools.py",
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/router.py",
+      "tradingagents/dataflows/vendors/yahoo/__init__.py",
+      "tradingagents/dataflows/vendors/yahoo/common.py",
+      "tradingagents/dataflows/vendors/yahoo/fundamentals.py",
+      "tradingagents/dataflows/vendors/yahoo/ohlcv.py"
+    ],
+    "tests/test_yahoo_snapshot.py": [
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/vendors/yahoo/snapshot.py"
+    ],
+    "tests/test_yfinance_stale_ohlcv_guard.py": [
+      "tradingagents/dataflows/__init__.py",
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/router.py",
+      "tradingagents/dataflows/vendors/yahoo/market.py",
+      "tradingagents/dataflows/vendors/yahoo/ohlcv.py",
+      "tradingagents/default_config.py"
+    ],
+    "tradingagents/__init__.py": [],
+    "tradingagents/agents/__init__.py": [
+      "tradingagents/agents/analysts/fundamentals_analyst.py",
+      "tradingagents/agents/analysts/market_analyst.py",
+      "tradingagents/agents/analysts/news_analyst.py",
+      "tradingagents/agents/analysts/sentiment_analyst.py",
+      "tradingagents/agents/managers/portfolio_manager.py",
+      "tradingagents/agents/managers/research_manager.py",
+      "tradingagents/agents/researchers/bear_researcher.py",
+      "tradingagents/agents/researchers/bull_researcher.py",
+      "tradingagents/agents/risk_mgmt/aggressive_debator.py",
+      "tradingagents/agents/risk_mgmt/conservative_debator.py",
+      "tradingagents/agents/risk_mgmt/neutral_debator.py",
+      "tradingagents/agents/state.py",
+      "tradingagents/agents/trader/trader.py"
+    ],
+    "tradingagents/agents/analysts/__init__.py": [],
+    "tradingagents/agents/analysts/fundamentals_analyst.py": [
+      "tradingagents/agents/analysts/turn.py",
+      "tradingagents/agents/context.py",
+      "tradingagents/agents/tools.py"
+    ],
+    "tradingagents/agents/analysts/market_analyst.py": [
+      "tradingagents/agents/analysts/turn.py",
+      "tradingagents/agents/context.py",
+      "tradingagents/agents/tools.py"
+    ],
+    "tradingagents/agents/analysts/news_analyst.py": [
+      "tradingagents/agents/analysts/turn.py",
+      "tradingagents/agents/context.py",
+      "tradingagents/agents/tools.py"
+    ],
+    "tradingagents/agents/analysts/sentiment_analyst.py": [
+      "tradingagents/agents/context.py",
+      "tradingagents/agents/post_screen.py",
+      "tradingagents/agents/schemas.py",
+      "tradingagents/agents/structured.py",
+      "tradingagents/agents/tools.py",
+      "tradingagents/dataflows/vendors/reddit.py",
+      "tradingagents/dataflows/vendors/stocktwits.py"
+    ],
+    "tradingagents/agents/analysts/turn.py": [],
+    "tradingagents/agents/context.py": [
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/vendors/yahoo/fundamentals.py"
+    ],
+    "tradingagents/agents/managers/__init__.py": [],
+    "tradingagents/agents/managers/portfolio_manager.py": [
+      "tradingagents/agents/context.py",
+      "tradingagents/agents/rating.py",
+      "tradingagents/agents/schemas.py",
+      "tradingagents/agents/structured.py"
+    ],
+    "tradingagents/agents/managers/research_manager.py": [
+      "tradingagents/agents/context.py",
+      "tradingagents/agents/schemas.py",
+      "tradingagents/agents/structured.py"
+    ],
+    "tradingagents/agents/post_screen.py": [
+      "tradingagents/agents/context.py"
+    ],
+    "tradingagents/agents/rating.py": [],
+    "tradingagents/agents/researchers/__init__.py": [],
+    "tradingagents/agents/researchers/bear_researcher.py": [
+      "tradingagents/agents/context.py"
+    ],
+    "tradingagents/agents/researchers/bull_researcher.py": [
+      "tradingagents/agents/context.py"
+    ],
+    "tradingagents/agents/risk_mgmt/__init__.py": [],
+    "tradingagents/agents/risk_mgmt/aggressive_debator.py": [
+      "tradingagents/agents/context.py"
+    ],
+    "tradingagents/agents/risk_mgmt/conservative_debator.py": [
+      "tradingagents/agents/context.py"
+    ],
+    "tradingagents/agents/risk_mgmt/neutral_debator.py": [
+      "tradingagents/agents/context.py"
+    ],
+    "tradingagents/agents/schemas.py": [],
+    "tradingagents/agents/state.py": [],
+    "tradingagents/agents/structured.py": [],
+    "tradingagents/agents/tools.py": [
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/router.py",
+      "tradingagents/dataflows/vendors/yahoo/snapshot.py"
+    ],
+    "tradingagents/agents/trader/__init__.py": [],
+    "tradingagents/agents/trader/trader.py": [
+      "tradingagents/agents/context.py",
+      "tradingagents/agents/schemas.py",
+      "tradingagents/agents/structured.py"
+    ],
+    "tradingagents/backtest.py": [
+      "tradingagents/agents/rating.py",
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/symbols.py",
+      "tradingagents/graph/trading_graph.py",
+      "tradingagents/memory/__init__.py"
+    ],
+    "tradingagents/dataflows/__init__.py": [],
+    "tradingagents/dataflows/config.py": [
+      "tradingagents/default_config.py"
+    ],
+    "tradingagents/dataflows/date_window.py": [],
+    "tradingagents/dataflows/errors.py": [],
+    "tradingagents/dataflows/files.py": [],
+    "tradingagents/dataflows/net.py": [],
+    "tradingagents/dataflows/router.py": [
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/__init__.py",
+      "tradingagents/dataflows/vendors/fred.py",
+      "tradingagents/dataflows/vendors/polymarket.py",
+      "tradingagents/dataflows/vendors/sec_edgar.py",
+      "tradingagents/dataflows/vendors/yahoo/fundamentals.py",
+      "tradingagents/dataflows/vendors/yahoo/market.py",
+      "tradingagents/dataflows/vendors/yahoo/news.py"
+    ],
+    "tradingagents/dataflows/symbols.py": [],
+    "tradingagents/dataflows/vendors/__init__.py": [],
+    "tradingagents/dataflows/vendors/alpha_vantage/__init__.py": [
+      "tradingagents/dataflows/vendors/alpha_vantage/fundamentals.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/indicator.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/news.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/stock.py"
+    ],
+    "tradingagents/dataflows/vendors/alpha_vantage/common.py": [
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/net.py"
+    ],
+    "tradingagents/dataflows/vendors/alpha_vantage/fundamentals.py": [
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/common.py"
+    ],
+    "tradingagents/dataflows/vendors/alpha_vantage/indicator.py": [
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/common.py"
+    ],
+    "tradingagents/dataflows/vendors/alpha_vantage/news.py": [
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/vendors/alpha_vantage/common.py"
+    ],
+    "tradingagents/dataflows/vendors/alpha_vantage/stock.py": [
+      "tradingagents/dataflows/vendors/alpha_vantage/common.py"
+    ],
+    "tradingagents/dataflows/vendors/fred.py": [
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/net.py"
+    ],
+    "tradingagents/dataflows/vendors/polymarket.py": [
+      "tradingagents/dataflows/date_window.py"
+    ],
+    "tradingagents/dataflows/vendors/reddit.py": [
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/symbols.py"
+    ],
+    "tradingagents/dataflows/vendors/sec_edgar.py": [
+      "tradingagents/__init__.py",
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/files.py"
+    ],
+    "tradingagents/dataflows/vendors/stocktwits.py": [
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/symbols.py"
+    ],
+    "tradingagents/dataflows/vendors/yahoo/__init__.py": [],
+    "tradingagents/dataflows/vendors/yahoo/common.py": [
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/net.py"
+    ],
+    "tradingagents/dataflows/vendors/yahoo/fundamentals.py": [
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/net.py",
+      "tradingagents/dataflows/symbols.py",
+      "tradingagents/dataflows/vendors/yahoo/common.py"
+    ],
+    "tradingagents/dataflows/vendors/yahoo/market.py": [
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/symbols.py",
+      "tradingagents/dataflows/vendors/yahoo/common.py",
+      "tradingagents/dataflows/vendors/yahoo/ohlcv.py"
+    ],
+    "tradingagents/dataflows/vendors/yahoo/news.py": [
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/symbols.py",
+      "tradingagents/dataflows/vendors/yahoo/common.py"
+    ],
+    "tradingagents/dataflows/vendors/yahoo/ohlcv.py": [
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/files.py",
+      "tradingagents/dataflows/symbols.py",
+      "tradingagents/dataflows/vendors/yahoo/common.py"
+    ],
+    "tradingagents/dataflows/vendors/yahoo/snapshot.py": [
+      "tradingagents/dataflows/errors.py",
+      "tradingagents/dataflows/symbols.py",
+      "tradingagents/dataflows/vendors/yahoo/common.py",
+      "tradingagents/dataflows/vendors/yahoo/ohlcv.py"
+    ],
+    "tradingagents/default_config.py": [],
+    "tradingagents/graph/__init__.py": [
+      "tradingagents/graph/conditional_logic.py",
+      "tradingagents/graph/propagation.py",
+      "tradingagents/graph/setup.py",
+      "tradingagents/graph/trading_graph.py"
+    ],
+    "tradingagents/graph/analyst_execution.py": [
+      "tradingagents/agents/analysts/__init__.py",
+      "tradingagents/agents/analysts/fundamentals_analyst.py",
+      "tradingagents/agents/analysts/market_analyst.py",
+      "tradingagents/agents/analysts/news_analyst.py"
+    ],
+    "tradingagents/graph/checkpointer.py": [
+      "tradingagents/dataflows/symbols.py"
+    ],
+    "tradingagents/graph/conditional_logic.py": [
+      "tradingagents/agents/state.py"
+    ],
+    "tradingagents/graph/propagation.py": [
+      "tradingagents/agents/state.py"
+    ],
+    "tradingagents/graph/setup.py": [
+      "tradingagents/agents/__init__.py",
+      "tradingagents/agents/analysts/turn.py",
+      "tradingagents/agents/state.py",
+      "tradingagents/graph/analyst_execution.py",
+      "tradingagents/graph/conditional_logic.py"
+    ],
+    "tradingagents/graph/trading_graph.py": [
+      "tradingagents/__init__.py",
+      "tradingagents/agents/context.py",
+      "tradingagents/agents/rating.py",
+      "tradingagents/dataflows/config.py",
+      "tradingagents/dataflows/date_window.py",
+      "tradingagents/dataflows/symbols.py",
+      "tradingagents/default_config.py",
+      "tradingagents/graph/checkpointer.py",
+      "tradingagents/graph/conditional_logic.py",
+      "tradingagents/graph/propagation.py",
+      "tradingagents/graph/setup.py",
+      "tradingagents/llm_clients/__init__.py",
+      "tradingagents/memory/__init__.py",
+      "tradingagents/memory/reflection.py",
+      "tradingagents/memory/settlement.py",
+      "tradingagents/reporting.py"
+    ],
+    "tradingagents/llm_clients/__init__.py": [
+      "tradingagents/llm_clients/base_client.py",
+      "tradingagents/llm_clients/factory.py"
+    ],
+    "tradingagents/llm_clients/anthropic_client.py": [
+      "tradingagents/llm_clients/base_client.py",
+      "tradingagents/llm_clients/validators.py"
+    ],
+    "tradingagents/llm_clients/api_key_env.py": [],
+    "tradingagents/llm_clients/azure_client.py": [
+      "tradingagents/llm_clients/base_client.py"
+    ],
+    "tradingagents/llm_clients/base_client.py": [],
+    "tradingagents/llm_clients/bedrock_client.py": [
+      "tradingagents/llm_clients/base_client.py",
+      "tradingagents/llm_clients/validators.py"
+    ],
+    "tradingagents/llm_clients/capabilities.py": [],
+    "tradingagents/llm_clients/chatgpt_auth.py": [
+      "tradingagents/dataflows/files.py",
+      "tradingagents/default_config.py"
+    ],
+    "tradingagents/llm_clients/factory.py": [
+      "tradingagents/llm_clients/base_client.py"
+    ],
+    "tradingagents/llm_clients/google_client.py": [
+      "tradingagents/llm_clients/base_client.py",
+      "tradingagents/llm_clients/validators.py"
+    ],
+    "tradingagents/llm_clients/model_catalog.py": [],
+    "tradingagents/llm_clients/openai_client.py": [
+      "tradingagents/llm_clients/api_key_env.py",
+      "tradingagents/llm_clients/base_client.py",
+      "tradingagents/llm_clients/capabilities.py",
+      "tradingagents/llm_clients/validators.py"
+    ],
+    "tradingagents/llm_clients/validators.py": [
+      "tradingagents/llm_clients/model_catalog.py"
+    ],
+    "tradingagents/memory/__init__.py": [
+      "tradingagents/memory/log.py"
+    ],
+    "tradingagents/memory/log.py": [
+      "tradingagents/agents/rating.py",
+      "tradingagents/dataflows/files.py"
+    ],
+    "tradingagents/memory/reflection.py": [],
+    "tradingagents/memory/settlement.py": [
+      "tradingagents/dataflows/symbols.py",
+      "tradingagents/dataflows/vendors/yahoo/market.py"
+    ],
+    "tradingagents/portfolio.py": [
+      "tradingagents/dataflows/symbols.py"
+    ],
+    "tradingagents/report_html.py": [
+      "tradingagents/agents/rating.py",
+      "tradingagents/reporting.py"
+    ],
+    "tradingagents/reporting.py": [
+      "tradingagents/agents/rating.py"
+    ]
+  }
+}
