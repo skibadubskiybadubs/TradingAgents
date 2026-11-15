@@ -13212,7 +13212,11 @@
         "multi-stage-build"
       ],
       "complexity": "simple",
-      "lineRange": "Builder stage installs into /opt/venv so the runtime stage copies only the virtualenv, keeping the final image small; TRADINGAGENTS_IN_DOCKER flags the container for update notices."
+      "lineRange": [
+        1,
+        30
+      ],
+      "languageNotes": "Builder stage installs into /opt/venv so the runtime stage copies only the virtualenv, keeping the final image small; TRADINGAGENTS_IN_DOCKER flags the container for update notices."
     },
     {
       "id": "service:Dockerfile:builder",
@@ -13307,7 +13311,11 @@
         "matrix-build"
       ],
       "complexity": "moderate",
-      "lineRange": "Uses a matrix include entry with TZ=America/New_York to catch tests that only pass in UTC."
+      "lineRange": [
+        1,
+        67
+      ],
+      "languageNotes": "Uses a matrix include entry with TZ=America/New_York to catch tests that only pass in UTC."
     },
     {
       "id": "pipeline:.github/workflows/ci.yml:test",
@@ -13446,7 +13454,11 @@
         "testing"
       ],
       "complexity": "moderate",
-      "lineRange": "Version is read dynamically from tradingagents.__version__; pytest addopts exclude integration-marked tests by default."
+      "lineRange": [
+        1,
+        89
+      ],
+      "languageNotes": "Version is read dynamically from tradingagents.__version__; pytest addopts exclude integration-marked tests by default."
     },
     {
       "id": "document:requirements.txt",
